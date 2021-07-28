@@ -1,0 +1,40 @@
+.booksView{
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    display: flex;
+    flex:1;
+    align-items: center;
+    flex-direction: column;
+}
+.bookCard{
+    height: 75%;
+    width: 75%;
+    text-align: right;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.bookButton{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-image: linear-gradient(rgb(19, 62, 252),rgb(84, 212, 235));
+    margin-right: 10px;
+}
+.bookButton:hover{
+    border: black;
+    background-image: linear-gradient(rgb(84, 212, 235),rgb(19, 62, 252));
+}
+.box{
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+.imgButtonDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex:1;
+    justify-content: flex-end;
+    margin-top: 2%;
+}
+.TypographyBooksText{
+    direction: rtl;  
+}

@@ -1,0 +1,64 @@
+.singleStoryDiv{
+    height: 28%;
+    width: 28%;
+    margin: 2%;
+    text-align: right;  
+    direction: rtl;
+}
+.singleStoryDiv:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  
+}
+.renderDiv{
+    display: flex;
+    flex-direction:row;
+    justify-content: end;
+    flex-wrap: wrap;
+    direction: rtl;
+}
+.TypographyText{
+    display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.imageLogo{
+    height: 18%;
+    width: 30%;
+    margin-left: 30px;
+    
+}
+.storyDiv{
+    align-items: center;
+    /* direction: rtl; */
+    /* width: 60%; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 30px;
+    background-color:rgb(250, 250, 243);
+} 
+.flexDiv{
+    flex-direction:row;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin-top: 30px;
+}
+.bodyText{
+    text-align: right;
+    font-size: 15px;
+    padding-left: 10%;
+    direction: rtl;
+    white-space:pre-wrap;
+}
+.bottomPartCard{
+    padding-right: 3%;
+}
+.continueButton{
+    direction: rtl;
+    text-decoration: none;
+}

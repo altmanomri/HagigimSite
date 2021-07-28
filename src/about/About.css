@@ -1,0 +1,10 @@
+.about{
+    text-align: right;
+    direction: rtl;
+    padding-right: 2%;
+}
+p{
+    text-align: right;
+    /* font-weight: bold; */
+}
+
