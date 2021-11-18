@@ -1,16 +1,19 @@
+import { styled } from "@material-ui/core";
 import { useState } from "react";
-import './About.css'
+import './About.css';
+
 
 
 function AboutComp() {
 
-    const [aviImg, setAviImg] = useState('https://media-exp1.licdn.com/dms/image/C5603AQFz712CAcLi5g/profile-displayphoto-shrink_200_200/0/1517652151627?e=1628121600&v=beta&t=uNMLeyJUqaOFFRVYoPh7GG1kmgFlzQJT-YzXx3IAeAc')
+    const [aviImg, setAviImg] = useState('/avraham.jpg')
 
     return (
         <div className="about">
             <h2>אודות</h2>
-            <img src={aviImg} />
-            
+            <div className="imgDiv">
+            <img src={aviImg} width={180} height={180}/>
+            </div>
             <h3>קו.קוריקולום</h3>
             <p>
                 <br/>נולדתי, גדלתי, למדתי, שיחקתי, ניגנתי, טיילתי;
@@ -29,10 +32,11 @@ function AboutComp() {
             <p>
                 כך נכתב באתר "סימניה":<br/>
                 בן קיבוץ אילון, מתגורר בתל אביב, נשוי, אב לבן ולבת וסבא לשני נכדים.<br/>
-                במקצועו הוא פסיכולוג ארגוני, ושימש כיועץ למערכות ציבוריות ועסקיות רבות..
+                במקצועו הוא פסיכולוג ארגוני, ושימש כיועץ למערכות ציבוריות ועסקיות רבות.
             </p>
         </div>
     )
 }
 
 export default AboutComp;
+

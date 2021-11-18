@@ -13,7 +13,7 @@ function MainPageComp() {
             <div className="header">
                <Link to="/" className="siteHeaderText"> <h1>הגיגי האזרח הותיק</h1></Link>
             </div>
-            <div>
+            <div className="ulHeader">
                 <ul>
                     <li><a className="active" href="/">אודות</a></li>
                     <li><a href="/AllStoriesComp">כל ההגיגים</a></li>
