@@ -32,7 +32,7 @@ function SingleStoryComp(props) {
             className: "imageLogo"
         },
         btn: {
-            href: "/AllStoriesComp",
+            href: "/",
             variant: "contained",
             color: "primary",
             size: "large",

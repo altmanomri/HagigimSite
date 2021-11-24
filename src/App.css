@@ -39,9 +39,9 @@
   font-size: calc(10px + 1vmin);
   color: white;
 }
-.active{
+/* .active{
   background-color: #4CAF50;
-}
+} */
 ul {
   list-style-type: none;
   margin: 0;

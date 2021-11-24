@@ -1,5 +1,6 @@
 import './Contact.css';
 import emailjs from 'emailjs-com';
+import strings from '../utils/strings/strings';
 
 function ContactComp(){
 
@@ -9,6 +10,7 @@ function ContactComp(){
     emailjs.sendForm('gmail', 'template_tkhjgsn', e.target, 'user_RKIAK9MXUJNeqaDToWphX')
       .then((result) => {
           console.log(result.text);
+          alert(strings.messageAlertForMail)
       }, (error) => {
           console.log(error.text);
       });

@@ -15,16 +15,16 @@ function MainPageComp() {
             </div>
             <div className="ulHeader">
                 <ul>
-                    <li><a className="active" href="/">אודות</a></li>
-                    <li><a href="/AllStoriesComp">כל ההגיגים</a></li>
+                    <li><a /*className="active"*/ href="/aboutComp">אודות</a></li>
+                    <li><a href="/">כל ההגיגים</a></li>
                     <li><a href="/BooksComp">ספרים</a></li>
                     <li><a href="/ContactComp">צור קשר</a></li>
                 </ul>
             </div>
             <div className="bodyDiv">
                 <Switch>
-                    <Route exact path="/" component={AboutComp}/>
-                    <Route path="/AllStoriesComp" component={AllStoriesComp} />
+                    <Route exact path="/" component={AllStoriesComp} />
+                    <Route path="/AboutComp" component={AboutComp}/>
                     <Route path="/SingleStoryComp/:id" component={SingleStoryComp} />
                     <Route path="/BooksComp" component={BooksComp}/>
                     <Route path="/ContactComp" component={ContactComp}/>
