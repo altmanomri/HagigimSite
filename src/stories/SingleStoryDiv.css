@@ -20,6 +20,7 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;  
   overflow: hidden;
+  color:black;  
 }
 .imageLogo{
     height: 18%;
@@ -57,6 +58,7 @@
 }
 .bottomPartCard{
     padding-right: 3%;
+    color:black;  
 }
 .continueButton{
     direction: rtl;
